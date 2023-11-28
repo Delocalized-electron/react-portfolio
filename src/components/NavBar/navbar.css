@@ -1,0 +1,48 @@
+.logo{
+  height: 60px;
+  width: auto;
+}
+
+.navbar{
+  height: 6rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+  z-index: 3;
+}
+
+.desktop-menu-list-item{
+  margin: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.desktop-menu-list-item:hover{
+  color: var(--accent-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.desktop-menu-img{
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+  margin: 0.5rem;
+  padding: 1px;
+}
+
+.desktop-menu-btn{
+  background-color: var(--accent-color);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
